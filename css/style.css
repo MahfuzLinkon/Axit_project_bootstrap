@@ -1,0 +1,147 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+a{
+	text-decoration: none;
+}
+/*******************************************
+			 	Fornt Family
+ ******************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+/*******************************************
+			 	Header CSS
+ ******************************************/
+
+header{
+	background: #000;
+	padding: 8px 0px;
+}
+header img{
+	width: 50%;
+}
+header .nav-link{
+	font-family: 'Open Sans', sans-serif;
+	color: #f0f0f0 !important;
+	font-weight: 600;
+	font-size: 14px;
+	padding-left: 20px !important;
+	ransition: 0.5s;
+}
+.nav-link:hover{
+	color: red !important;
+}
+/*******************************************
+			 	Banner
+ ******************************************/
+#banner{
+	background-image: url(../images/banner_image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.banner_text{
+	height: 100vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner_text img{
+
+}
+.banner_text h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color: #f0f0f0;
+	font-size: 36px;
+	margin: 26px 0px;
+	width: 75%;
+}
+.banner_text .line{
+	height: 2px;
+	width: 50px;
+	background: #fff;
+}
+.banner_text p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: #f0f0f0;
+	margin: 26px 0px;
+	width: 68%;
+}
+.banner_text button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 6000;
+	padding: 10px 24px;
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	transition: 0.5s;
+}
+.banner_text button:hover{
+	color: black;
+	background: white;
+}
+
+.banner_form{
+	height: 100vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.banner_form .card{
+	border: none !important;
+}
+.banner_form h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 0px;
+	padding: 10px 0px;
+}
+.banner_form h2 span{
+	color: red;
+}
+.banner_form .card-body {
+    padding: 1rem 2rem;
+}
+.banner_form .card-body input{
+	width: 100%;
+	margin: 14px 0px;
+	border: none;
+	border-bottom: 2px solid #f0f0f0 ;
+	padding-bottom: 6px;
+    padding-left: 12px;
+}
+.banner_form .card-body input:focus{
+	outline: none;
+}
+.banner_form .card-body input::placeholder{
+	color: #ff9b51;
+}
+.banner_form .card-body input[type=password]{
+	margin-bottom: 30px;
+}
+/*card-footer*/
+
+
+.banner_form .card-footer {
+	background-color: #ff9b51 !important
+}
+.banner_form .card-footer button{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	color: white;
+	background-color: #ff9b51 !important;
+	width: 100%;
+	background: transparent;
+	border: none;
+	padding: 10px 0px;
+}
